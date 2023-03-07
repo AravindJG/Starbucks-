@@ -1,0 +1,460 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.top{
+    background-color:white;
+    width:100%;
+    height: 150px;
+    margin-top:-10px;
+}
+.logo{
+    width: 130px;
+    height: 90px;
+    margin-top:20px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+body{
+    background-color:#006342;
+}
+ul{
+    margin-top:-15px;
+    margin-left: 90px;
+}
+.sub{
+    padding:8px;
+}
+.sublink{
+    color:white;
+}
+.sublink:hover{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(44, 42, 42); 
+}
+a:hover{
+    color: white;
+    margin-bottom: 2px;
+    width: 40px;
+}
+.sub:hover{
+    background-color:#454545;
+    transition-delay: 150ms;
+    height: 33px;
+    border-radius: 2px;
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+img{
+    display:flex;
+    width:100%;
+    height: 560px;
+}
+
+.hm6{
+    display:inline-flex;
+    color:#454545;
+    background-color: white;
+    padding:5px;
+}
+.content{
+    display:inline-block;
+    padding: 100px;
+    font-size:35px;
+}
+.button{
+    background-color:#006342;
+    font-size: 40px;
+    padding:15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:white;
+    font-weight: bold;
+    border-radius: 12px;
+    border-color:#006342;
+    margin-left:60px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.con{
+    font-weight: 200px;
+    margin-left: -30px;
+    font-size: 20px;
+}
+.get{
+    margin-left: 60px;
+}
+.social-media{
+    background-color:#d3dad3;
+    height: 100px;
+    padding: 40px 100px;
+}
+.icon{
+    margin-right:25px;
+}
+.final{
+    background-color: white;
+    height: 300px;
+    width:100%;
+}
+.last-home{
+    display: inline-flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    
+    
+    height: 190px;
+    font-size :15px;
+    letter-spacing: 2px;
+}
+.about{
+    margin-right:100px;
+}
+.customer{
+    margin-right:70px;
+}
+.quick{
+    color:#454545;
+}
+.hed:hover{
+    color:gray;
+}
+.com:hover{
+    color:gray;
+}
+.f-link{
+    margin-left:100px;
+    color:#454545;
+    letter-spacing: 2px;
+}
+.fs:hover{
+    color:gray;
+}
+#sesson-gift{
+    display: none;
+}
+#delivers{
+    display: none;
+}
+.abtimg{
+    margin-top: -45px;
+    width:200px;
+    height:225px;
+}
+.abtT{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.abtC{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.abtblack{
+    background-color: black;
+    display: inline-block;
+    padding:10px;
+    padding-bottom: 20px;
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+}
+.abthed{
+    color:green;
+    font-size: 23px;
+    margin-right: 150px;
+}
+.abtcont{
+    color:white;
+    margin-right: 150px;
+}
+.abthed:hover{
+    color:white;
+    background-color:green;
+}
+.abtcont:hover{
+    background-color:green;
+}
+#aboutus{
+    background-color: white;
+    padding:30px 100px;
+    display: none;
+}
+.dropcoffee{
+    background-color: #454545;
+    margin-left:-150px;
+    padding:25px;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.dropmenu{
+    background-color:#454545;
+    margin-left:-290px;
+    padding:25px;
+    width: 100%;
+    color: white;
+    display:none;
+}
+.dropabout{
+    background-color:#454545;
+    margin-left:-1355px;
+    padding:25px;
+    padding-left: 300px;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.innerabt{
+    color:white;
+}
+.innerabt:hover{
+    background-color: green;
+}
+.sub:hover .dropcoffee{
+    position: fixed;
+   display:block;
+}
+.sub:hover .dropmenu{
+    position: fixed;
+    display:block;
+}
+.sub:hover .dropabout{
+    position: fixed;
+    display:block;
+ }
+ .esprosub{
+    letter-spacing: -0.1px;
+    font-weight: lighter;
+ }
+ .esprosubh{
+    letter-spacing: -0.1px;
+    font-weight: bold;
+ }
+ .espro{
+    padding-left:150px;
+ }
+ .ethical{
+    padding-left:450px;
+    margin-top:-65px;
+ }
+ .ethicalsub{
+    letter-spacing: -0.1px;
+    font-weight: lighter;
+ }
+ .ethicalsubh{
+    letter-spacing: -0.1px;
+    font-weight: bold;
+ }
+ .lm{
+    padding-left:800px;
+    margin-top:-68px;
+ }
+ .lmsub{
+    letter-spacing: -0.1px;
+    font-weight: lighter; 
+ }
+ .lmsubh{
+    letter-spacing: -0.1px;
+    font-weight: bold;
+ }
+ .look{
+    margin-left:125px;
+ }
+.looksub{
+    letter-spacing: -0.1px;
+    font-weight: lighter; 
+}
+.looksubh{
+    letter-spacing: -0.1px;
+    font-weight: bold;  
+}
+.drink{
+    padding-left:150px;
+}
+.drinksub{
+    letter-spacing: -0.1px;
+    font-weight: lighter; 
+}
+.drinksubh{
+    letter-spacing: -0.1px;
+    font-weight: bold; 
+}
+.food{
+    padding-left:450px;
+    margin-top:-120px;
+}
+.foodsub{
+    letter-spacing: -0.1px;
+    font-weight: lighter;   
+}
+.foodsubh{
+    letter-spacing: -0.1px;
+    font-weight: bold;  
+}
+.aboutsub{
+    letter-spacing: -0.1px;
+    font-weight: lighter;  
+}
+.tmsh{
+    padding-top:50px;
+    margin-left:115px;
+    font-size: 25px;
+}
+.tms{
+    margin-left:115px;
+}
+.list{
+    font-size:20px;
+    font-weight: bold;
+    margin-left:115px;
+}
+.listcon{
+    display: flex;
+    margin-left:115px;
+    letter-spacing:1px;
+    font-size: 20px;
+    color:#454545;
+    font-weight: lighter;
+}
+#terms{
+    background-color: white;
+    display: none;
+}
+#tell{
+    padding:25px 500px;
+    width:100%;
+    background-color: white;
+    display: none;
+}
+.fac:hover{
+    color:gray;
+}
+.tweet{
+    padding-left:25px;
+    padding-right:25px;
+}
+.tweet:hover{
+    color:gray;
+}
+.insta:hover{
+    color:gray;
+}
+.ph{
+    margin-left:250px;
+    margin-top:-118px;
+}
+.no{
+    color:blue;
+}
+.no:hover{
+    color:white;
+    background-color: black;
+    border-radius: 3px;
+}
+.hercont{
+    font-size:18px;
+    font-weight: lighter;
+}
+.hedher{
+    font-size: 30px;
+}
+.heri{
+    font-size:20px;
+}
+.hedher2{
+    font-size: 40px;
+}
+.hedher3{
+    font-size:25px;
+}
+#heritage{
+    padding:25px 100px;
+    background-color: white;
+    display: none;
+}
+#company{
+    background-color: white;
+    padding: 25px 100px;
+    display: none;
+}
+.coffeeimg{
+    height:350px;
+}
+.new{
+    color:green;
+    background-color: lightgreen;
+    margin-right:1220px;
+    border-radius: 3px;
+}
+.coffeesub{
+    padding:25px 100px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.coffeecont{
+    font-size: 20px;
+}
+#coffee{
+    display: none;
+}
+.main{
+    display: non;
+}
+.etcont{
+    font-size: 25px;
+}
+.etlink{
+    background-color: green;
+    padding:15px;
+    border-radius:15px;
+    margin-left:50px;
+}
+.etlink:hover{
+    transform: scale(1.2);
+}
+.elink{
+    color:white;
+}
+#ethical-source{
+    padding:25px 100px;
+    background-color: white;
+    display: none;
+}
+.farmerimg{
+    height:450px;
+}
+.farmercont{
+    background-color: white;
+    padding:25px 100px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#formersup{
+    display: none;
+}
+.cofimg{
+    height:450px;
+}
+.cofcont{
+    padding:25px 100px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: white;
+}
+#coffee-source{
+    display: none;
+}
